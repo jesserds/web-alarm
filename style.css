@@ -1,7 +1,7 @@
 body, html {
   margin: 0;
   padding: 0;
-  background-color: #121818;
+  background-image: linear-gradient(to top, #000000, #080708, #0d0e10, #0f1315, #121818);
 }
 *{
   box-sizing: border-box;
@@ -39,8 +39,8 @@ body, html {
   cursor: pointer;
 }
 .set-alarm {
-  background-color: #498afb;
+  background-image: linear-gradient(to right top, #498afb, #396ccb, #28509d, #173672, #051e49);
 }
 .clear-alarm {
-  background-color: #ff3860;
-} 
+  background-image: linear-gradient(to right top, #ff3860, #c4284c, #8c1a37, #570e22, #290109);
+}
