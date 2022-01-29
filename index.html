@@ -1,22 +1,31 @@
 <html>
-<head>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="https://cdn-icons.flaticon.com/png/512/896/premium/896354.png?token=exp=1641776821~hmac=83651cb6d34be0d4830bf989b003bb37">
-  <title>Clock Alarm</title>
-   <link rel="stylesheet" href="https://jesserds.github.io/web-alarm/style.css"/>
-   <script src="https://jesserds.github.io/web-alarm/index.js"></script>
-</head>
-<body>
-  <section class="container">
-    <div id="clock"></div> == $0
-    <input onchange="setAlarmTime(this.value)" name="alarmTime" type="datetime-local">
-    <div class="controls">
-      <button onclick="setAlarm()" class="button set-alarm"><strong>Set alarm</strong></button>
-      <button onclick="clearAlarm()"  class="button clear-alarm"><strong>Clear alarm</strong></button>
-    </div>
-  </section>
-  <script src="index.js"></script>  
-</body>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Clock Alarm</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div id="clock"></div>
+      <input
+        onchange="setAlarmTime(this.value)"
+        name="alarmTime"
+        type="datetime-local"
+      />
+      <div class="controls">
+        <button onclick="setAlarm()" class="button set-alarm">
+          <strong>Set alarm</strong>
+        </button>
+        <button onclick="clearAlarm()" class="button clear-alarm">
+          <strong>Clear alarm</strong>
+        </button>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
 </html>
