@@ -1,4 +1,4 @@
-<img src="./alarm-clock.gif" alt="alarm-clock" height=350 class="center"/>
+<a href="https://jesserds.github.io/web-alarm/" target="_blank"><img src="./alarm-clock.gif" alt="alarm-clock" height=350 class="center"/></a>
 
 # Online alarm-clock project
 
